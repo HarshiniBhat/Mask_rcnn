@@ -14,7 +14,7 @@ import shutil
 import zipfile
 
 # Root directory of the project
-ROOT_DIR = os.path.abspath("/content/drive/MyDrive/Mask_rcnn")
+ROOT_DIR = os.path.abspath("/content/Mask_rcnn")
 print("VERS 0.2")
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
@@ -30,7 +30,7 @@ warnings.filterwarnings('ignore')
 
 
 # Directory to save logs and trained model
-MODEL_DIR = os.path.join(ROOT_DIR, "logs")
+MODEL_DIR = os.path.join("/content/drive/MyDrive/Mask_rcnn", "logs")
 
 # Local path to trained weights file
 COCO_MODEL_PATH = os.path.join(ROOT_DIR, "mask_rcnn_coco.h5")
