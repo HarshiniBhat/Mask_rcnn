@@ -7,9 +7,16 @@ WARNING:tensorflow:From /tensorflow-1.15.2/python3.7/keras/callbacks/tensorboard
 
 Epoch 2/5
 500/500 [==============================] - 805s 2s/step - loss: 0.1981 - val_loss: 0.1265
+
 Epoch 3/5
 500/500 [==============================] - 971s 2s/step - loss: 0.1548 - val_loss: 0.1505
+
 Epoch 4/5
 500/500 [==============================] - 955s 2s/step - loss: 0.1248 - val_loss: 0.0918
+
 Epoch 5/5
 500/500 [==============================] - 955s 2s/step - loss: 0.0972 - val_loss: 0.0598
+
+
+Random Images tested
+![]()
